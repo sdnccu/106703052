@@ -26,7 +26,7 @@ public class MainComposite extends Composite {
 		
 		Composite composite = new Composite(this, SWT.NONE);
 		composite.setLayout(new RowLayout(SWT.HORIZONTAL));
-		composite.setLayoutData(new RowData(618, SWT.DEFAULT));
+		composite.setLayoutData(new RowData(618, 46));
 		
 		Composite composite_2 = new Composite(composite, SWT.NONE);
 		composite_2.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
@@ -45,7 +45,7 @@ public class MainComposite extends Composite {
 		CenterComposite centerComposite = new CenterComposite(composite_1, SWT.NONE);
 		
 		text = new Text(composite_1, SWT.BORDER);
-		text.setLayoutData(new RowData(477, 115));
+		text.setLayoutData(new RowData(467, 115));
 
 	}
 

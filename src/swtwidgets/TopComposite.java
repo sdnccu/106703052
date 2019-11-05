@@ -29,7 +29,7 @@ public class TopComposite extends Composite {
 		FormData fd_composite = new FormData();
 		fd_composite.left = new FormAttachment(0);
 		fd_composite.right = new FormAttachment(0, 520);
-		fd_composite.bottom = new FormAttachment(0, 64);
+		fd_composite.bottom = new FormAttachment(0, 38);
 		fd_composite.top = new FormAttachment(0);
 		composite.setLayoutData(fd_composite);
 		
